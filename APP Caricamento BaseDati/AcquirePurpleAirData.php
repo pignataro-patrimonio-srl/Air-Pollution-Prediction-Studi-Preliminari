@@ -15,6 +15,16 @@
 * Last Update: 04/07/2019
 */
 
+
+
+
+/**
+*
+* @todo Al memento la base dati non gestisce vari tipi di sensori.  Bisogna adeguare Db e Programmi di caricamanto 
+* 
+*/
+
+
 require_once 'errorLog.php';
 ini_set("error_reporting","on");
 error_reporting(E_ALL & ~E_NOTICE & ~E_STRICT);
@@ -33,7 +43,6 @@ $LOG->setLogger
         'log_level' => LOG_LEVEL_DEBUG
     )
 );
-
 
 $LOG->info('Batch in esecuzione');
 
