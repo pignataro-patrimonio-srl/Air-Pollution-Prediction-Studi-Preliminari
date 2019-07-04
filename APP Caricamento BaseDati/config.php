@@ -12,6 +12,7 @@
 * 
 * Author:  pricciardi
 * Created: 24 mar 2019
+* Last Update: 04/07/2019
 */
 
 
@@ -36,7 +37,14 @@ return [
     //versione tracciato per il quale il programma è scritto
     "versioneTracciato" => "6.0.73",
     //mail a cui spedire il messaggio che il tracciato jason di purpleair è cambiato
-    "alertMail" => "inserire mail monitorata. qui arrivera allert se purpleair cambia tracciato json ",
+    "alertMailTo" => "inserire qui mail monitorata a cui arriva messaggio di risolvere il problema del traccito record",
+    //messaggio Mail per alert cambio versione tracciato
+    "alertMailSubject" => "Inserire qui oggetto della mail che comunica problema di tracciato",
+    //messaggio Mail from che compare nella mail
+    "alertMailFrom" => "inserire qui mittente della mail di alarme che viene spedita",
+    "alertMailReplyTo" => "inserire qui mail per eventuale replay alla segnalazione: solitamente noreplay@yourdomanin.",
+
+    
     
     
 ]; 
